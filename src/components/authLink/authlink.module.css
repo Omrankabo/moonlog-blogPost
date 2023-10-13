@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+    color: var(--textColor);
+}
+.link{
+    cursor: pointer;
+}
+@media screen and (max-width: 975px) {
+    .container{
+        font-size: 32px;
+    }
+    
+}
