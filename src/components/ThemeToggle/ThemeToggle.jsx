@@ -1,12 +1,13 @@
 "use client"
 import styles from './themeToggle.module.css'
 import {BsSun,BsMoon} from 'react-icons/bs'
-import { useState } from 'react'
+import { useTheme } from '@/context/ThemeContext'
 
 const ThemeToggle = () => {
-  const [theme,toggle] = useState("light") 
+  const {theme,toggle} = useTheme()
+  
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={toggle}>
       {
         theme === 'light'? <BsMoon/> : <BsSun/>
       }
