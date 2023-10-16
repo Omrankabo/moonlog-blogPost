@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.button{
+    border: none;
+    padding: 16px 10px;
+    text-align: center;
+    background: crimson;
+    color: white;
+    text-transform: capitalize;
+    width: 100px;
+    cursor: pointer;
+}
