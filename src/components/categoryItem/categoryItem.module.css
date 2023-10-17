@@ -1,0 +1,8 @@
+.category{
+    padding: 15px;
+    border-radius: 10px; 
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;   
+}

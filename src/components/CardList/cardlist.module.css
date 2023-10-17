@@ -1,3 +1,11 @@
 .container{
     flex: 5;
 }
+.title{
+    margin: 50px 0;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
