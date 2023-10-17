@@ -38,4 +38,10 @@
     border: none;
     border-bottom: 2px solid crimson;
     cursor: pointer;
+    color: var(--textColor);
+}
+@media screen and (max-width:1280px) {
+    .imageContainer{
+        display: none;
+    }
 }

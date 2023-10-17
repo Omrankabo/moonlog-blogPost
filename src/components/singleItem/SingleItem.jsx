@@ -8,7 +8,7 @@ const SingleItem = () => {
     <div className={styles.container}> 
       {/* image container */}
       <div className={styles.imageContainer}>
-        <Image src='/p1.jpeg' alt='' fill className={styles.image}/>
+        <Image src='/food.png' alt='' fill className={styles.image}/>
       </div>
       {/* text container */}
       <div className={styles.textContainer}>
