@@ -18,12 +18,12 @@ const Menu = () => {
       <h1 className={styles.title}>Categories</h1>
       <div>
         <div className={styles.categories}>
-          <CategoryItem name={"style"} backgroundColor={'#57cff431'}/>
-          <CategoryItem name={"food"} backgroundColor={'#7fb88133'}/>
-          <CategoryItem name={"fashion"} backgroundColor={'#da85c731'}/>
-          <CategoryItem name={"culture"} backgroundColor={'#ffb04f45'}/>
-          <CategoryItem name={"coding"} backgroundColor={'#5e4fff31'}/>
-          <CategoryItem name={"travel"} backgroundColor={'#ffb0ff45'}/>
+          <CategoryItem path={"style"} backgroundColor={'#57cff431'}/>
+          <CategoryItem path={"food"} backgroundColor={'#7fb88133'}/>
+          <CategoryItem path={"fashion"} backgroundColor={'#da85c731'}/>
+          <CategoryItem path={"culture"} backgroundColor={'#ffb04f45'}/>
+          <CategoryItem path={"coding"} backgroundColor={'#5e4fff31'}/>
+          <CategoryItem path={"travel"} backgroundColor={'#ffb0ff45'}/>
         </div>
 
       </div>

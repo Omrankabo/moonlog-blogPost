@@ -1,9 +1,9 @@
 import styles from './categoryItem.module.css'
 import Link from "next/link";
 
-const CategoryItem = ({name,backgroundColor})=>{
+const CategoryItem = ({path,backgroundColor})=>{
     return (
-      <Link href={`/blog?cat=${name}`} className={styles.category} style={{backgroundColor:`${backgroundColor}`}}>{name}</Link>
+      <Link href={`/blog?cat=${path}`} className={styles.category} style={{backgroundColor:`${backgroundColor}`}}>{path}</Link>
     )
 }
 
